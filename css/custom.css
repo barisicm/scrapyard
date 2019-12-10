@@ -1,0 +1,24 @@
+nav{
+    min-height: 100px;
+}
+
+footer{
+    background-color: #04101e;
+    min-height: 80px;
+}
+
+footer > * {
+    color:#ffffff;
+    margin: 0;
+}
+
+.banner{
+    height: 723px;
+    width: 1440px;
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1200px;
+    }   
+}
